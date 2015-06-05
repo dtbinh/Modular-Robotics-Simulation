@@ -1,0 +1,19 @@
+%positions
+
+hold on
+
+
+plot(0,0,'k+')  % Marker att
+
+plot(r0*cos(theta), r0*sin(theta),'-g')
+rConf = 2*rsig+r0;
+plot(rConf*cos(theta), rConf*sin(theta),'--g')
+
+x_cent = repmat(x0,nr,1);
+y_cent = repmat(y0,nr,1);
+for i = 1:nb
+    plot(r(:,i)-x_cent, r(:,i+1)-y_cent)
+end
+
+%axis([0 700 0 700])
+hold off
