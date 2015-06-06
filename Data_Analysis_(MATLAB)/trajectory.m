@@ -4,9 +4,6 @@
 
 hold on
 
-
-
-
 % Center of the Cluster:
 x_cent = repmat(x0,nr,1);
 y_cent = repmat(y0,nr,1);
