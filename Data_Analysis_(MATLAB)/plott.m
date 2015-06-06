@@ -1,5 +1,5 @@
 % plott.m
-% Runs the Plotting and Analysis on the Data
+% Runs Basic Analysis and Plots the Data
 
 clear all
 loader
